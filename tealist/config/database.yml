@@ -1,0 +1,23 @@
+development:
+  adapter: mysql
+  database: tealist_development
+  username: root
+  password:
+  host: 127.0.0.1
+  encoding: utf8
+
+production:
+  adapter: mysql
+  database: tealist
+  username: tealist
+  password: tea123
+  host: 127.0.0.1
+  encoding: utf8
+
+test:
+  adapter: mysql
+  database: tealist_test
+  username: tealist
+  password: tea123
+  host: 127.0.0.1
+  encoding: utf8

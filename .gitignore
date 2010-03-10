@@ -1,0 +1,4 @@
+log
+rerun.txt
+webrat*
+db/dump*
