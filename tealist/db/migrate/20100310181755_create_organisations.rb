@@ -9,7 +9,7 @@ class CreateOrganisations < ActiveRecord::Migration
       t.timestamps
     end
 
-    add_index :lists, :url_key
+    add_index :organisations, :url_key
   end
 
   def self.down
